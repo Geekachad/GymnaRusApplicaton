@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ГимнаРУС</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+    
+</head>
+<body>
+    <header>
+        <img src="image/title.png">
+        <button type="button">Авторизация</button>
+        <hr></hr>
+    </header>
+    <button type="button" onclick="showMainTable('sklad')">Склад</button>
+    <button type="button" onclick="showMainTable('otgruzki')">Отгрузки</button>
+    <button type="button" onclick="showMainTable('katalog')">Каталог</button>  
+
+    <div id="sklad" class="mainTable">
+        <table>
+            <thead>
+                <tr>
+                    <th>Наименование</th>
+                    <th>SN</th>
+                    <th>Art</th>
+                    <th>Колличество</th>
+                    <th>Дата изготовления</th>
+                    <th>Дата поставки</th>
+                    <th>Бронь</th>
+                    <th>Заметки</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div id="otgruzki" class="mainTable">
+        <table>
+            <thead>
+                <tr>
+                    <th>№ счёта/договор</th>
+                    <th>Комплектация</th>
+                    <th>Заказчик</th>
+                    <th>ИНН</th>
+                    <th>Адрес</th>
+                    <th>контактные данные</th>
+                    <th>Конечный покупатель</th>
+                    <th>Менеджер</th>
+                    <th>Заметки</th>
+                    <th>Инф. об отгузке</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
+
